@@ -5,6 +5,14 @@
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
+.link{
+    font-size: 1rem;
+    align-content: center;
+}
+.link a{
+    color: green;
+    text-decoration: none;
+}
 body{
     width: 100%;
     height: 100vh;
@@ -120,8 +128,8 @@ section{
 }
 
 .main-container .image{
-    width: 700px;
-    height: 80vh;
+    width: 420px;
+    height: 420px;
     border-radius: 100%;
     overflow: hidden;
     box-shadow: 0 0 50px #077b32;
@@ -222,16 +230,16 @@ section{
     }
     .main-container .image{
         z-index: -1;
-        width: 50%;
-        height: 60%;
+        width: 65px;
+        height: 65px;
     }
 
 }
 @media(max-width: 440px){
-    .main-container .image{
+    /* .main-container .image{
         width: 50%;
         height: 40%;
-    }
+    } */
     .main-container .content{
         width: 80%;
         
@@ -239,4 +247,13 @@ section{
     .main-container button{
         margin-top: 15px;
     }
+}
+
+#imageId {
+    /* resize:  ; */
+    /* image-rendering: ; */
+    object-fit: cover;
+    height: 460px;
+    /* width: 460px; */
+    bottom: 50px;
 }
